@@ -19,5 +19,6 @@ public class PlayerController : MonoBehaviour
         movex = Input.GetAxis("Horizontal");
         movez = Input.GetAxis("Vertical");
         rb.AddForce(movex*speed, 0, movez*speed);
+        
     }
 }
